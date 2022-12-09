@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
-  color: #b3b3b3;
+  color: #8d8d8d;
   background: #fff;
 }
 
@@ -445,21 +445,27 @@ main {
 
 .resume-list li {
   padding: 0;
-  margin: 0 0 30px 0;
   display: block;
   list-style: none;
 }
 
 .resume-list li .date {
   color: #000;
-  opacity: .6;
+  opacity: .8;
 }
 
 .resume-list li h3 {
   color: #000;
   font-size: 24px;
 }
+.set li {
+  margin-left: -20px;
 
+}
+.set li span{
+  font-size: 40px;
+
+}
 .half > div {
   width: 50%;
   padding: 4% 5%;
@@ -522,7 +528,7 @@ main {
 .event-list-item .date {
   border-right: 1px solid #ccc;
   text-transform: uppercase;
-  color: #b3b3b3;
+  color: #8d8d8d;
 }
 
 .event-list-item .more {
